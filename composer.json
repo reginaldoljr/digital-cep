@@ -1,0 +1,22 @@
+{
+    "name": "reginaldo/digital-cep",
+    "description": "Buscador de CEP.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-0": {
+            "Search": "src/"
+        },
+        "psr-4": {
+            "Reginaldo\\DigitalCep\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Reginaldo L Jr."
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0"
+    }
+}
